@@ -43,5 +43,5 @@ func main() {
 }
 
 func serve(buffer []byte) {
-	fmt.Printf("%s\n", buffer)
+	fmt.Printf("%s", buffer)
 }
